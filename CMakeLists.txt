@@ -67,3 +67,10 @@ set(demo2_10_src "src/demo_10.cpp"
                "src/shader.h"
                "src/shader.cpp")
 add_executable(demo2_10 ${demo2_10_src})
+
+
+set(demo2_11_src "src/demo_11.cpp"
+               "src/glad.c"
+               "src/shader.h"
+               "src/shader.cpp")
+add_executable(demo2_11 ${demo2_11_src})
