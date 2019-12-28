@@ -51,8 +51,8 @@ int main()
         return -1;
     }
 
-    Shader shader = Shader("D:\\workspace\\CProjects\\OpenGL_Demo2\\shader\\demo_09\\shader.vs",
-                           "D:\\workspace\\CProjects\\OpenGL_Demo2\\shader\\demo_09\\shader.fs");
+    Shader shader = Shader("shader/demo_09/shader.vs",
+                           "shader/demo_09/shader.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
