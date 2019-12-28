@@ -7,7 +7,9 @@
         "glad.h": "c",
         "glfw3.h": "c",
         "ostream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "xiosbase": "cpp",
+        "xstring": "cpp"
     },
     "cmake.configureOnOpen": true
 }
