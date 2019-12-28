@@ -101,6 +101,7 @@ int main()
 
     unsigned int texture;
     glGenTextures(1, &texture);
+    glActiveTexture(GL_TEXTURE0); // 在绑定纹理之前先激活纹理单元,纹理单元 GL_TEXTURE0 默认总是被激活
     glBindTexture(GL_TEXTURE_2D, texture);
     // 为当前绑定的纹理对象设置环绕、过滤方式
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
