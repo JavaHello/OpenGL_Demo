@@ -9,7 +9,8 @@
         "ostream": "cpp",
         "iostream": "cpp",
         "xiosbase": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "cmath": "cpp"
     },
     "cmake.configureOnOpen": true
 }
