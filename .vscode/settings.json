@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "*.tpl": "html",
+        "glad.h": "c",
+        "glfw3.h": "c",
+        "ostream": "cpp",
+        "iostream": "cpp"
+    },
+    "cmake.configureOnOpen": true
+}

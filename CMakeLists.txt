@@ -1,0 +1,40 @@
+cmake_minimum_required (VERSION 3.11)
+project(OpenGL_Demo2)
+
+set(OUT_LIB "lib")
+set(OUT_INCLUDE "include")
+
+include_directories(${OUT_INCLUDE})
+link_directories(${OUT_LIB})
+LINK_LIBRARIES(glfw3)
+
+# aux_source_directory(src ALL_SRCS)
+# add_executable(demo2 ${ALL_SRCS})
+# target_link_libraries(demo2 glfw3)
+
+set(demo2_01_src "src/demo_01.cpp"
+               "src/glad.c")
+add_executable(demo2_01 ${demo2_01_src})
+
+
+set(demo2_02_src "src/demo_02.cpp"
+               "src/glad.c")
+add_executable(demo2_02 ${demo2_02_src})
+
+
+set(demo2_03_src "src/demo_03.cpp"
+               "src/glad.c")
+add_executable(demo2_03 ${demo2_03_src})
+
+set(demo2_04_src "src/demo_04.cpp"
+               "src/glad.c")
+add_executable(demo2_04 ${demo2_04_src})
+
+set(demo2_05_src "src/demo_05.cpp"
+               "src/glad.c")
+add_executable(demo2_05 ${demo2_05_src})
+
+
+set(demo2_06_src "src/demo_06.cpp"
+               "src/glad.c")
+add_executable(demo2_06 ${demo2_06_src})
