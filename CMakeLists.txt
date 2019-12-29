@@ -144,3 +144,10 @@ set(demo2_22_src "src/demo_22.cpp"
                "src/shader.h"
                "src/shader.cpp")
 add_executable(demo2_22 ${demo2_22_src})
+
+
+set(demo2_23_src "src/demo_23.cpp"
+               "src/glad.c"
+               "src/shader.h"
+               "src/shader.cpp")
+add_executable(demo2_23 ${demo2_23_src})
