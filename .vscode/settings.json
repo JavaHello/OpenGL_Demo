@@ -12,7 +12,8 @@
         "xstring": "cpp",
         "cmath": "cpp",
         "cstdlib": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "*.rh": "cpp"
     },
     "cmake.configureOnOpen": true
 }
