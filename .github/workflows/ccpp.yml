@@ -10,7 +10,6 @@ jobs:
     runs-on: windows-latest
     
     steps:
-    - uses: snickerbockers/cmake-configure@prerel1
     - name: cmake build
       run: cmake --build build
 
