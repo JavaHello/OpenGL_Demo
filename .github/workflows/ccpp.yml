@@ -10,6 +10,6 @@ jobs:
     runs-on: windows-latest
     
     steps:
-    - name: cmake build
-      run: cmake --build build
+    - name: Archlinux CMake builder
+      uses: codehz/arch-cmake-builder@v0.1.3
 
